@@ -1,3 +1,7 @@
+### Description
+
+This is a minimal zig + wasm example to be used in a browser
+
 ### Build and Run
 
 1. Run `zig build` command in your terminal
