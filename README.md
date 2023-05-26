@@ -11,3 +11,7 @@ This is a minimal zig + wasm example to be used in a browser
 4. Start http server from `zig-out/lib` folder
 5. In a browser go to an address of your running server (e.g. `127.0.0.1:5500/index.html`)
 6. Open developer console and make sure you see `Result: 3` output
+
+### More
+
+- [Zig std.log working in browser (Zig + WASM)](https://gist.github.com/mumboo/7068081c60b471270435ebd1ddfa1080)
