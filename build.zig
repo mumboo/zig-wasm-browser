@@ -14,7 +14,8 @@ pub fn build(b: *std.Build) void {
     });
 
     lib.rdynamic = true;
-    lib.strip = false;
+    //28kb (strip = false) vs 1kb (strip = true)
+    lib.strip = true;
 
     b.installArtifact(lib);
 
